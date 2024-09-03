@@ -1,0 +1,67 @@
+@Aayush
+
+dt.03.09.24           
+-----------
+[Lab-1]
+
++-------------------------------------------------+
+|   Design Principles of Operating System (DOS)   |
++-------------------------------------------------+
+ 
+
+• INTRODUCTION TO UNIX :
+
++------------------------------------------------------------+
+|                   APPLICATION UTILITIES                    |
+|   +----------------------------------------------------+   |
+|   |                       SHELL                        |   |
+|   |   +--------------------------------------------+   |   |
+|   |   |                   KERNAL                   |   |   |
+|   |   |   +------------------------------------+   |   |   |
+|   |   |   |              HARDWARE              |   |   |   |
+|   |   |   +------------------------------------+   |   |   |
+|   |   |                                            |   |   |
+|   |   +--------------------------------------------+   |   |
+|   |                                                    |   |
+|   +----------------------------------------------------+   |
+|                                                            |
++------------------------------------------------------------+
+
+
+• TERMINALS :
+-------------
+input  :  who
+output :  student  tty2         2024-09-03 13:41 (tty2)
+
+input  :  whoami
+output :  student
+
+input  :  mkdir Aayush
+output :  (It will make a new DIRECTORY (folder) with name "Aayush".)
+
+input  :  cd Aayush
+output :  (It will locate in the folder "Aayush" created before.)
+
+input  :  pwd
+output :  /home/student/Aayush
+
+input  :  date
+output :  Tuesday 03 September 2024 02:42:30 PM IST (Gives Current Date)
+
+input  :  touch Lab1.txt
+output :  (It will create a txt file with name "Lab1")
+
+input  :  echo "This is my 1st DOS lab." | cat>Lab1.txt
+output :  (It will store the written text in the "Lab1" file.)
+
+input  :  echo "This is a new line." | cat>>Lab1.txt
+output :  (This will add a new line in the "Lab1" file.)
+
+input  :  echo -n "This is line 1."| cat>Lab1.txt
+          echo -n "This is line 2."| cat>>Lab1.txt
+          echo -n "This is line 3."| cat>>Lab1.txt
+
+output :  (All the sentences will be written in a same line.)
+
+input  :  echo | cat Lab1.txt > Lab1COPY.txt
+output :  (It will copy all the content from "Lab1" to "Lab1COPY".)
